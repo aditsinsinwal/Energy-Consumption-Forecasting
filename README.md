@@ -11,8 +11,6 @@ Built and compared LSTM and ARIMA models for energy demand forecasting.
 
 Engineered 12 temporal and seasonal features to enhance model performance.
 
-Achieved a 15% improvement in forecasting accuracy (MAPE reduction) over baseline methods.
-
 Visualized consumption trends and forecasting results to derive actionable insights.
 
 Structured modular code for scalability and reproducibility.
