@@ -17,7 +17,7 @@ def load_and_clean_data(file_path):
     # Ensure data is hourly
     df = df.asfreq('H')
 
-    # Fill missing values
+    # Imputing missing values
     df['PJME_MW'] = df['PJME_MW'].interpolate(method='time')
 
     return df
