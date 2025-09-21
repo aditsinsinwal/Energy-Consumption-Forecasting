@@ -55,7 +55,7 @@ def run_lstm_model(data_path):
     })
     forecast_df.to_csv('outputs/lstm_forecast.csv', index=False)
 
-    print("✅ LSTM forecast saved to outputs/lstm_forecast.csv")
+    print("LSTM forecast saved to outputs/lstm_forecast.csv")
 
 if __name__ == "__main__":
     run_lstm_model('processed_data.csv')
