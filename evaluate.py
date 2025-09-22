@@ -1,4 +1,3 @@
-# evaluate.py
 # Time-series evaluation utilities for point forecasts, intervals, and backtests.
 # No hard dependency on your model files—pass callables or arrays.
 
