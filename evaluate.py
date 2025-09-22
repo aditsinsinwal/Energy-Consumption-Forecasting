@@ -12,10 +12,7 @@ import pandas as pd
 
 ArrayLike = Union[np.ndarray, pd.Series, list]
 
-
-# ---------------------------
 # Basic metric implementations
-# ---------------------------
 
 def _to_1d(a: ArrayLike) -> np.ndarray:
     arr = np.asarray(a, dtype=float).reshape(-1)
