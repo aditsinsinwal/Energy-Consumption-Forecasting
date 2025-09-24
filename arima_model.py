@@ -11,8 +11,8 @@ def run_arima_model(data_path):
     # Use only the target variable
     y = df['PJME_MW']
 
-    # Split data (Train: 90%, Test: 10%)
-    split_idx = int(len(y) * 0.9)
+    # Split data (Train: 80%, Test: 20%)
+    split_idx = int(len(y) * 0.8)
     train, test = y[:split_idx], y[split_idx:]
 
     print("Fitting ARIMA model...")
